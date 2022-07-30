@@ -1,0 +1,61 @@
+.headerContainer {
+    display : flex;
+    height : 100px;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.logoContainer {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 10%;
+    font-size: 35px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+}
+
+.logo {
+    transition: all 0.2s ease-out;
+}
+
+.logo:hover {
+    transform: scale(1.1);
+}
+
+.menuContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 70%;
+}
+
+.menuItem {
+    margin-left: 20px;
+    margin-right: 20px;
+    color: rgb(255, 255, 255);
+    font-family: 'Poppins', sans-serif;
+    transition: all 0.2s ease-in;
+    text-decoration: none;
+}
+
+.menuItem:hover {
+    color: #047BD5;
+}
+
+.buttonContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}
+
+.buttons {
+    margin-left: 10px;
+    margin-right: 10px;
+    color: rgb(255, 255, 255);
+    transition: all 0.2s ease-in;
+}
+
+.buttons:hover {
+    color: #047BD5;
+}

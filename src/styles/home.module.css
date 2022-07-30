@@ -1,0 +1,89 @@
+.videoContainer {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+  
+    overflow: hidden;
+    width : 100%;
+}
+
+.textContainer {
+  display: flex;  
+  align-items: center;
+  justify-content: center;
+}
+
+.explore {
+  color: white;
+  font-family: 'Edu NSW ACT Foundation', cursive;
+  transform: translateY(600px);
+  margin-bottom: 20px;
+  cursor: pointer;
+  font-size: 50px;
+  transition: all 0.2s ease-in;
+}
+
+.explore:hover {
+  color: #F8E831
+}
+
+.loginContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.loginHeading {
+  align-self: center;
+}
+
+.loginInput {
+  width: 300px;
+  height: 35px;
+  margin-top: 50px;
+  border-radius: 15px;
+  border: 1px solid #30302f;
+  font-size: 17px;
+  padding-left: 10px;
+}
+
+.loginPassword {
+  width: 300px;
+  height: 35px;
+  margin-top: 10px;
+  border-radius: 15px;
+  border: 1px solid #30302f;
+  font-size: 17px;
+  padding-left: 10px;
+}
+
+.loginButton {
+  width: 307px;
+  margin-top: 20px;
+  height: 40px;
+  border: none;
+  background-color: black;
+  color: white;
+  font-size: 15px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.loginButton:hover {
+  width: 307px;
+  margin-top: 20px;
+  height: 40px;
+  border: none;
+  background-color: #047BD5;
+  color: white;
+  font-size: 15px;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: all 0.2s ease-in;
+}
+
+.loginText {
+  text-align: center;
+}

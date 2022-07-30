@@ -1,0 +1,77 @@
+.menuContainer {
+    background-image : url("../../public/menu.jpg");
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.menuBox {
+    width: 80%;
+    height: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.menuItem {
+    height: 100%;
+    width: 24%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    flex-direction: column;
+    transition: all 0.2s ease-in;
+}
+
+.menuItem_l {
+    height: 100%;
+    width: 24%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    transition: all 0.2s ease-in;
+    justify-content: space-between;
+}
+
+.menuItem:hover {
+    background: rgba(255, 255, 255, 0.66);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(9.8px);
+    -webkit-backdrop-filter: blur(9.8px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.nestedItem {
+    height: 49%;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    flex-direction: column;
+    transition: all 0.2s ease-in;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nestedItem:hover {
+    background: rgba(255, 255, 255, 0.66);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(9.8px);
+    -webkit-backdrop-filter: blur(9.8px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
